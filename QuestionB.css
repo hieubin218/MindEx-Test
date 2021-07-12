@@ -1,0 +1,49 @@
+body {
+    background-image: linear-gradient(to right,#06beb6 , #48b1bf);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 2px dotted red;
+    background-color: orange;
+    text-align: center;
+    padding-bottom: 30px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+
+
+}
+
+#LuckyNum {
+    border: 1px solid black;
+    color: wheat;
+    background-color: red;
+    margin-top: 0px;
+}
+
+#NumInput {
+    height: 30px;
+    width: 200px;
+    background-color: aliceblue;
+}
+
+#button {
+    height: 50px;
+    width: 100px;
+    border-radius: 15px 25px;
+    margin-left: 20px;
+    background-color: lawngreen;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#result {
+    width: 500px;
+    height: 20px;
+    text-align: center;
+}
+
